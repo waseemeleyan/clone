@@ -1,0 +1,264 @@
+body{
+    background-color:#000000;
+    color: rgb(244, 249, 253);
+    margin: 0%;
+    padding: 0%;
+    
+}
+/* .header{
+    background-image: ;
+} */
+.navbar img{
+    width: 100px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+.navbar img:hover{
+    width: 120px;
+    cursor: pointer;
+    transition: 1s;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar button{
+    background-color: greenyellow;
+    border-radius: 8px;
+    font-size: 20px;
+    width: 115px;
+    height: auto;
+    margin-top: 20px;
+    margin-right: 10px;
+
+
+}
+.navbar button:hover{
+    cursor: pointer;
+    background: transparent;
+    color: aliceblue;
+    transition: 1d;
+}
+.navbar select{
+    margin-left: 1150px;
+    font-size: 20px;
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+
+
+}
+.navbar select:hover{
+    cursor: pointer;
+    
+
+}
+ .header {
+    width: 100%;
+    height: 100vh;
+   background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(https://cdn.wallpapersafari.com/89/24/s5eouc.jpg);   
+     background-size: cover;
+    background-position: center;
+    position: relative;
+
+
+
+}
+.contant  h3{
+    color: greenyellow;
+    margin-left:45%; 
+    margin-top: 8%;
+    margin-right: 10%;
+
+
+}
+.contant .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contant .logo .img1{
+    width: 150px;
+    height: auto;
+    margin-right:600px;
+    margin-bottom: 15px;
+
+}
+.contant .logo .img2{
+    width: 150px;
+    height: auto;
+    margin-left: 600px;
+
+}
+.contant  h2{
+    margin-left:35%; 
+    margin-right: 10%;
+
+
+}
+.contant button{
+    width: 700px;
+    height: 50px;
+    background-color: rgb(132, 188, 49);
+    border-radius: 10px;
+    margin-left: 30%;
+    border-color: rgb(132, 188, 49);
+}
+.contant button:hover{
+    background:transparent ;
+    color: aliceblue;
+    cursor: pointer;
+
+    transition: 2s;
+    
+}
+.contant .link1 {
+    margin-left: 50%;
+    color: aliceblue;
+    
+}
+.contant .link2 {
+    margin-left: 48%;
+    color: aliceblue;
+}
+.contant a:hover{
+  
+
+}
+.bottom {
+ 
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    display: inline;
+    
+}
+ .bottom h2{ 
+    position: absolute;
+    margin-left: 33%;
+    bottom: 7%;
+
+
+}
+
+.bottom h5{ 
+    position: absolute;
+     margin-left:33%;
+    color: greenyellow;
+    bottom: 12%;
+
+
+
+}
+.bottom button{
+    position: absolute;
+    left: 87%;
+    background: transparent;
+    color: aliceblue;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 0px;
+    bottom: 10%;
+   
+
+}
+.bottom button:hover{
+background-color: aliceblue;
+color: #000000;
+transition: 1s;
+cursor: pointer;
+
+}
+.bottom a{
+    position: absolute;
+    left: 89.5%;
+    bottom: 7%;
+   color: aliceblue;
+   margin-right: 1px;
+   
+}
+
+.bottom img{
+    position: absolute;
+    width: 400px;
+    height: auto;
+    bottom: 8%;
+    margin-left: 15px;
+
+}
+.contants{
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+
+
+}
+.contants h5{
+    color: yellowgreen;
+}
+.contants .headers{
+
+}
+.photos img{
+    width: auto;
+    height: 400px;
+}
+.photos img:hover{
+    width: auto;
+    height: 500px;
+    transition: 1s;
+    cursor: pointer;
+}
+.liveSport{
+    width: 100%;
+    height: 100vh;
+    background-image:  linear-gradient(to bottom, rgba(18, 23, 18, 0.7), rgba(40, 56, 43, 0.7)),url(https://cnbl-cdn.bamgrid.com/assets/b8c6dfb74d0a755e8df205721c87b1f8b74821b4229c78492ecca29a2635db9e/original);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    margin-top: 10%;
+
+}
+.liveSport .links{
+    padding-top: 200px;
+    padding-right: 600px;
+
+
+}
+.liveSport .links a{
+   margin: 20px;
+    font-size: 30px;
+    color: aliceblue;
+    list-style: none;
+    text-decoration: none;
+
+}
+.liveSport .links a:hover{
+    margin: 20px;
+     font-size: 30px;
+     color: aliceblue;
+     list-style: none;
+     text-decoration:underline  5px solid ;
+     color: aqua;
+     transition: 2s;
+ 
+ }
+ .liveSport .text{
+    text-align: left;
+ }
+.liveSport .text{
+    padding-left: 200px;
+    font-size: 20px;
+
+
+}
+.liveSport .text h1{
+    font-size: 50px;
+}
